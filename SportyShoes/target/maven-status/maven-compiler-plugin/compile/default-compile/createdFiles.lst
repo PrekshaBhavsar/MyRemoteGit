@@ -1,0 +1,11 @@
+com\example\SportyShoes\entity\Admin.class
+com\example\SportyShoes\controller\ShoesController.class
+com\example\SportyShoes\service\ShoesService.class
+com\example\SportyShoes\SportyShoesApplication.class
+com\example\SportyShoes\repository\AdminRepository.class
+com\example\SportyShoes\entity\User.class
+com\example\SportyShoes\service\AdminService.class
+com\example\SportyShoes\repository\ShoesRepository.class
+com\example\SportyShoes\repository\UserRepository.class
+com\example\SportyShoes\entity\Shoes.class
+com\example\SportyShoes\service\UserService.class
