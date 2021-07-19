@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Banking App Testcases]" parallel="none">
+  <parameter name="password" value="abcd"/>
+  <parameter name="username" value="abc@xyz.com"/>
+  <test name="Regression Test(failed)" parallel="none" preserve-order="true">
+    <parameter name="password" value="abcd"/>
+    <parameter name="username" value="abc@xyz.com"/>
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="Testcase1" invocation-numbers="0"/>
+          <include name="Setup"/>
+          <include name="Cleanup"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Banking App Testcases] -->
